@@ -1,0 +1,105 @@
+.form-container {
+  max-width: 35rem;
+  box-shadow: 0.5px 0.5px 0.8rem 0.5px rgb(148, 144, 144);
+  margin: 0px auto 3rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #fbfbfb;
+}
+
+.form-container h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-container input,
+.signup-image,
+.form-container select {
+  margin-bottom: 1.5rem;
+  height: 3rem;
+  background-color: #fbfbfb;
+}
+
+.form-container p {
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.forget-password {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.form-container input {
+  border: none;
+  border-bottom: 2px solid rgb(71, 17, 187);
+}
+
+.btn-signup,
+.btn-signin,
+.btn-verify,
+.btn-reset {
+  background-color: rgb(26, 130, 95);
+  color: aliceblue;
+  margin-bottom: 5px;
+}
+
+.google-btn {
+  background-color: #dd4b39;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.form-container button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(74, 62, 62);
+  cursor: pointer;
+}
+
+.password input {
+  width: 90%;
+}
+
+.fa-eye {
+  background-color: rgb(214, 213, 213);
+  padding: 0.4rem;
+  border-radius: 100%;
+}
+
+.switch-auth {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.switch-auth a {
+  color: #4019b4;
+}
+
+.error-box {
+  position: sticky;
+  width: fit-content;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 10vh;
+  display: flex;
+  justify-content: end;
+  background-color: rgb(48, 44, 44, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  margin-bottom: 5px;
+}
+.error-box h1 {
+  height: 1rem;
+  margin-top: -22px;
+  margin-left: 20px;
+  cursor: pointer;
+}

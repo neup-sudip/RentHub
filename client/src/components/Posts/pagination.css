@@ -1,0 +1,22 @@
+.pagination {
+  max-width: 400px;
+  margin: 0px auto;
+  text-align: center;
+  overflow-y: hidden;
+  margin-bottom: 10px;
+}
+
+.pagination li {
+  display: inline;
+}
+
+.pagination a {
+  display: inline;
+  padding: 5px 10px;
+  color: white;
+  background-color: rgb(0, 33, 201);
+  box-shadow: 2px 2px 2px rgb(221, 217, 217);
+  margin: 0px 5px;
+  font-size: 2rem;
+  border-radius: 10px;
+}
